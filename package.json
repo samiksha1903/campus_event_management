@@ -1,0 +1,20 @@
+{
+  "name": "college-event-management",
+  "version": "1.0.0",
+  "description": "College Event Management Backend with Node.js, Express, and Supabase",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "@supabase/supabase-js": "^2.43.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
